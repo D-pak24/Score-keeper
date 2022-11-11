@@ -3,7 +3,7 @@ To Improve My Skill I Built A Score Keeper By Using Html,css and javascript
 <div align="center">
 <h2 align="center">Project Preview</h2>
 <br>
-<img width='80%' src = "https://github.com/D-pak24/Score-keeper/blob/58479c90bde6b96e1dbebe267efe87fc397c4a49/assets/preview-img.png">
+<img width='85%' src = "https://github.com/D-pak24/Score-keeper/blob/58479c90bde6b96e1dbebe267efe87fc397c4a49/assets/preview-img.png">
 </div>
 <br>
 <div align="center">
