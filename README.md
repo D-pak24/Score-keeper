@@ -8,9 +8,12 @@ To Improve My Skill I Built A Score Keeper By Using Html,css and javascript
 <br>
 <div align="center">
 <a href="https://dpak24-score-keeper.netlify.app/"><b><i>Live</i></b></a>
+</div>
 <br>
 <br>
+<div align="center">
 Favicon: https://icons8.com/icons/set/score-keeper
 <br>
 Icons: https://icons8.com/icon/Ei5AhpGybn1O/synchronize
+</div>
 
