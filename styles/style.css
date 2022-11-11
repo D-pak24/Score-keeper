@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Sono:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: #e2730a;
+  --black: #101820ff;
+  --white: #fff;
+  --color: #d12c2c;
+  font-size: 20px;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    #17da9d,
+    #00d0bc,
+    #00c4d3,
+    #00b5de,
+    #00a5dd
+  );
+
+  height: 105vh;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105vh;
+}
+.container {
+  text-align: center;
+  height: 95%;
+  width: 90%;
+  background-color: transparent;
+}
+.container h1 {
+  font-family: "Sono", sans-serif;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+.scoredis {
+  color: var(--white);
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  margin-top: 1.9rem;
+  padding: 0 5% 0 5%;
+}
+.playerone {
+  padding-right: 50%;
+}
+input[type="number"] {
+  font-family: "Pacifico", cursive;
+  border: none;
+  border-radius: 5px;
+  margin-top: 4rem;
+  width: 9rem;
+  height: 1.9rem;
+  appearance: textfield;
+  margin-top: 4rem;
+  padding-left: 10px;
+  font-size: 0.7rem;
+}
+input[type="number"]::placeholder {
+  font-family: "system-ui";
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: 2rem;
+  width: 1rem;
+  margin: 0;
+}
+.scoretowin:focus-visible {
+  outline: none;
+}
+.addpoints {
+  display: flex;
+  justify-content: center;
+  font-size: 4.5rem;
+  margin-top: 0.5rem;
+  padding: 0 0.2rem 0 0.6rem;
+}
+.pointone {
+  padding-right: 25%;
+}
+.btn {
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+
+.green:hover {
+  background-color: rgb(21, 214, 21);
+  opacity: 0.8;
+  transition: all ease-in-out 0.4s;
+}
+.red:hover {
+  background-color: red;
+  opacity: 0.8;
+  transition: all ease-in-out 0.4s;
+}
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-btn {
+  margin-top: 1rem;
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 1.9rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
+#reset {
+  width: 1.3rem;
+}
+#reset:hover {
+  animation: rotation 0.5s ease-in-out;
+}
+.unclickable {
+  opacity: 0.7;
+  pointer-events: none;
+}
+/*mediaquries*/
+@media (min-width: 500px) {
+  .pointone {
+    padding-right: 45%;
+  }
+  .btn {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  .reset-btn {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  #reset {
+    position: absolute;
+    right: 0;
+    left: 0.3rem;
+    bottom: 0.3rem;
+    width: 1.3rem;
+  }
+}
+
+/*keyframes*/
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

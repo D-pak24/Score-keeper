@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Score Keeper</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <h1>Score Keeper</h1>
+        <div class="scoredis">
+          <span class="playerone">0</span>
+          <span class="playertwo">0</span>
+        </div>
+        <input
+          type="number"
+          min="1"
+          id="scoretowin"
+          class="scoretowin"
+          placeholder="Total Points To Win"
+        />
+        <div class="addpoints" id="addPoints">
+          <div class="pointone">
+            <button class="btn green btn1" id="playeronepointadd">+</button>
+            <button class="btn red btn2" id="playeronepointdecrease">-</button>
+          </div>
+          <div class="pointtwo">
+            <button class="btn green btn3" id="playertwopointadd">+</button>
+            <button class="btn red btn4" id="playertwopointdecrease">-</button>
+          </div>
+        </div>
+        <div class="reset-container">
+          <span class="reset-btn"
+            ><img src="/assets/reset-icon.png" alt="Reset button" id="reset"
+          /></span>
+        </div>
+      </section>
+    </main>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
